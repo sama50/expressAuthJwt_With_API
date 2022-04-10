@@ -1,5 +1,4 @@
- pt6EM
-
+ 
 ## To Run this Project via NPM follow below:
 
 ```bash
