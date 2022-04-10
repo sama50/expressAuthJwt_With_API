@@ -198,7 +198,7 @@ class UserController {
         
         res.send({
           status: "success",
-          message: " changed succesfully",
+          message: "Successfully",
         });
       
     } else {
@@ -230,13 +230,13 @@ class UserController {
           $push: { mi_inviteEvent:adddoc }
         });
         
-        res.send({"msg":"successfuly"})
+        res.send({"msg":"Successfully"})
 
       }else{
         res.send({msg:"email is invalid"})
       }
     }else{
-      res.send({msg:"provide details"})
+      res.status(201).send({msg:"provide details"})
     }
   }
 
